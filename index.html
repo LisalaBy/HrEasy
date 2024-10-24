@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация для HR</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="registrationPage flex items-center">
+    <div class="blue">
+        <svg width="890" height="1080" viewBox="0 0 890 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H890L811 550.5L735.5 1080H0V0Z" fill="#3555DC" />
+          </svg>
+        <div class="blueContent flex flex-col">
+            <a href="./main.html"><h3 class="logo">HrEase</h3></a>
+            <div class="content flex items-center flex-col">
+                <div class="title flex items-center flex-col">
+                    <h3>Вы уже зарегистрированы?</h3>
+                    <h4> нажмите здесь, чтобы войти в свою учетную запись</h4>
+                </div>
+                <button><a href="./index2.html">авторизироваться</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainContent flex flex-col">
+        <div class="title flex items-center flex-col">
+            <h3>Аккаунт для HR-менеджеров</h3>
+            <h4>Внесите изменения в свой аккаунт здесь / нажмите сохранить, когда закончите</h4>
+        </div>
+        <div class="inputContainer flex flex-col">
+            <div class="inputContainer flex">
+                <div class="inpt flex flex-col">
+                    <h4>Имя</h4>
+                    <input type="text" id="firstName" name="firstName" placeholder="Иван">
+                </div>
+                <div class="inpt flex flex-col">
+                    <h4>Фамилия</h4>
+                    <input type="text" id="secondtName" name="secondName" placeholder="Иванов">
+                </div>
+            </div>
+            <div class="inpt flex flex-col">
+                <h4>Email</h4>
+                <input type="email" id="email" name="email" placeholder="HR_manager@gmail.com">
+            </div>
+            <div class="inpt flex flex-col">
+                <h4>Пароль</h4>
+                <input type="password" id="password" name="password" placeholder="*********">
+            </div>
+        </div>
+        <button class="Next" onclick="checkFields()" id="loginButton"><a>Зарегистрироваться</a></button>
+    </div>
+</div>
+<script>
+    function checkFields() {  //если все инпуты не были заполнены появлялось сообщение. Если все заполнено перенаправление по ссылке на другую страницу (профиль)
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+
+        if (email === "" || password === "") {
+            alert("Пожалуйста, заполните все поля.");
+        } else {
+            window.location.href = "./accountHR.html"; // Перенаправление на профиль
+        }
+    }
+</script>
+</body>
+</html>

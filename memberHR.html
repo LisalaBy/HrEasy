@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сотрудники и кондидаты</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="flex accountPages">
+    <a href="./main.html" class="Logo"><h3>HrEase</h3></a>
+    <img class="rectangle3" src="./img/rectangle3.png" alt="">
+
+    <aside class="navigation flex flex-col">
+        <div class="topContainer flex flex-col">
+            <div class="name flex items-center">
+                <img src="./img/photo.png" alt="">
+                <div class="text flex flex-col">
+                    <h4>Maria</h4>
+                    <p>HR-менеджер</p>
+                </div>
+            </div>
+            
+            <div class="nav flex flex-col">
+                <a href="./main.html" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_45)"/>
+                        <defs>
+                        <pattern id="pattern0_107_45" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_45" transform="scale(0.0333333)"/>
+                        </pattern>
+                        <image id="image0_107_45" width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO3UvQnCUBSG4VcLK8HGCVzAHax0AUdwBVdwBt3BzlowqGQKQdu0NgpeEU4ghBhP7o+F3g8+CIdwHzi5BGJ0GQAH4CjPX8kIyAAjzWSWZy/zxCc6A24FNO8dmMs7xblzOsCqAix36RPuA1sFWlXrDIGTJWoNT4GrA2rkDHVaclEejqiRMxZA+xPaBdYewHI3QK8OTgOgedM6OAkI7zTf2TeqToSNYm3BV/0uETZx1Zr83+W6ePx7nZvAE0/4Cx03gWN+J09NOXSle/Ic7gAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                                                   
+                    <h4>Главная</h4>
+                </a>
+                <a href="" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_48)"/>
+                        <defs>
+                        <pattern id="pattern0_107_48" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_48" transform="scale(0.0078125)"/>
+                        </pattern>
+                        <image id="image0_107_48" width="128" height="128" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>                                                    
+                    <h4>Компания</h4>
+                </a>
+                <a href="" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_51)"/>
+                        <defs>
+                        <pattern id="pattern0_107_51" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_51" transform="scale(0.02)"/>
+                        </pattern>
+                        <image id="image0_107_51" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEeElEQVR4nO2aW4hVVRjHf5PNjGZq2uBoBDUhQWkgzGMXX7poVDaRkeZLF6OElMqXirILSAz2IqlIL9ZD9dxFISu0EJkSpYymNCsqsosGRVanUU988D/wtc8++3bWGs+Df9icc9b61rf3f9b6rnvgDKLgTeA74FFgCqcJ04EhYD2wHfgS+A04AYwBx4AvgLeAYWAxMNWtHwTq7voZuAfoGo+HnwgsB3bogeslrzGRvgPYqjHT9b2T2QlcGIvAOcAa4Ii7YQ14F1gL3AxcDsxw830auwV4UrK1BLFTwKXS/wzwl8aPAteGJnET8LW7+UfAvYlj4tGQS8MUrT3sdsNjQPobf6i7CIBJwJYEgesLrMsiYjgL+EoyQynzPcArmj8JLG2DA7OBfVL2J/CQHoAARBZp3uzi7BYyZvAbJPcvcF0FDlzitn4UmFtyfR6RNzRvdpMFI/OyZH8t6wBmOxK75WIJSOQieTv7K88qoKsXGJG+XUVds9nEfkdiMtWQRWSd5l4voW9Ax9vW3V1kwUvuOFXZiTwiPQp6NregpM6HXdA8N8/FmuDxCjZRlMgyjX9WQWe383SPtBKyYPSNhMw7EYnIhxpfWUHnHOAd5+1SsUYCe4EJxCFyhcb+yAikSUxQVjCieNLQa4lmqoE30o4bCIM0Ips0Zp95mAk8BnybSGe2KtFMxXIJfUw4JIlM1U7UtTOtcBXwaiIfO+zCwZKsm74nofsiElmp3x+0yL0eAD51604oaC5SNrFC49ta3XCGFtVKnNsqRA7o951ubB6wEfg9UY+sU9D0mAb8oyCaWnzdLgW2K0QiskDfj8j/L1HGe8rJ7QXul722wk7JWphowguaXBuRyGv6bmXAT27ObGZzjs14PKV1z6dNbteklaAh0XjY/pRC6oBspuxRHtJ6s50mNCJlu5E8icZDX+0KJNuZa9rQeZl0WQ+gCcdcSRqDiGWqV2pn2kWfdP6SNlmleVDmKpKmF0WvdJr3asJYZCKjAcn0ZBGJdbRmKsOtq9d1QQCd52cdrUOatOAUGrO0I6F2Zl6WsW+L5H5jkLk1y/2u16Q1xuhwMs9Jh7Vem3CbJt8nLkKQ2aX11tFswnmuo2HfO5VMnzzsWFZGsEPKLWmjQ8k8mJfGo95qXV1FOpBMl3PlS/NeE/wowRvpPDKLXcPBonuhntH+QM2HUGS6ncyqIkonubrYXoHRIWSecNlB7m4kO+THSxQ7MckMulqmyKuM/2GzFh5qs2XaLpn5ekFa16uF0piotpAp2JPXY41I5qQ+R8ocqST6XTK5W1nneGG+I3FQWXRbGHBl8MFxsplBd5zsnheHUtzvjtnfwOpIrrkbeNwZ9kiInUizmRddxfcJsDCQ7i4Fu1Gnf0M7NlEEC7XddZfOrKjo2fqUOzXSjrp0l3axVdGr4/WDe4CaOoBPq/CZK3I9uqarsrOe1LNKxX2fwNKOVbF3IYvQMmWiVZoXtuZtJYCnhUAapqnQGdbLl1E1NGq67N8wPld5OizZkM3yM6CT8B8ORuhzfAuZxgAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                                                    
+                    <h4>Работы</h4>
+                </a>
+                <a href="" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_54)"/>
+                        <defs>
+                        <pattern id="pattern0_107_54" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_54" transform="scale(0.02)"/>
+                        </pattern>
+                        <image id="image0_107_54" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABP0lEQVR4nO2ZQU7DMBBF3yorbkARvQb0fKVwgp6gXADWXTQXQSJhwSUGWZpIUZWAaztpjOdJf9HUGfvbTibWwHSsgVfgW3UA7smMFdAAcqZP4JaM2OvA33TgTu96zf03OxXwAnwNzK6P+rN/FxijBXY6lmCeAzt3Og3EqyPiPcUYaTXIwy9tuo5C+ev+x97KTNaJb5tr90FRRlpt47bApWz03ibBOKID7CIe4E7bJRip1Ey3MpeoURPVEozMgZgRxVYkMWJbq6StdRx4nbqPwuyMyIiyNTL2+wb4CEiSdS/GWOwsjJyuZST7rVV7zmYKxPKIYnkkMWIPu2J5BMsjg1geKer1Oydi55GSPhrFziPYeSQYO48kRiyPlJQQ50TMyH9bkTai0JmKjWfBdPJCZyptY4zEFDpTqfEsmBosiR8HFg/SQKU+VQAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                             
+                    <h4>Проекты</h4>
+                </a>
+                <a href="./memberHR.html" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_57)"/>
+                        <defs>
+                        <pattern id="pattern0_107_57" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_57" transform="scale(0.02)"/>
+                        </pattern>
+                        <image id="image0_107_57" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEsUlEQVR4nO2ZaYhXVRjGf02TZXvkGGYSfpNpQaTFrKgoKDI1sz4ELSoEFi1CQfahxcoorOhDaIZpYpstVBQEjllC2maW0sbU0GaJbWOmZovdeOM58XK799zlP+UI94HD3P89z/ves7znXc5AgwYNGjSA3YBTgHuAlcBG4FegG9h9V1mgc4D3gSSnXUI/Rzswzw34R2AucD4wEpim973AAuBU+qkpPamBmgndBOyZMdFuN9E/gbvpZ7hGg9sCjCngDgGuArZJ5gr+Z7QBp8l83gU2aFXHAd9rUBMq6LtQMj8AM4DngR5gk96f/F9MohN4I+fw/qK/XTX0vhZxCl3A4X05idHODL4F7gPGA6Pc6lmbVEP3ZZL9FLgUOE6OISyOtZeAoa1OokMxwBQ+BhyQ6j8d+En9ZvtVcbRkP0y9nwrMl/la/5oM51EJs9w25wWyb8QZWEP/Qc4l5/V/JM50WsAnUnJshPO5OLZ7VXGgZG1X8zDe7Uot7A3sUGCzOJGHp/Wh82p84wTJro1wBgC/q9Uyr330EQtiMVwr3uIa33hCsrMLeF+KN6xu3NiibY8lesv0kQcr6rddXijZpQXc78Q7hJpYWiI4/SzOoTX0D5WsecY8dIpj57U21krJHRHOanHMFVfFGZI1HXm4XxwLnrWwrxRsVsKXhxvE6ymRZ3mMkYzJXh/h7Qf8IccTG0f0jPTqQ2fqdxbMk6wQb0kF/Usks6LAG50k3voC7xnFHJcqxCJ3hxLIjXKXRRigdMdWeVCEd5h2w74/kxZgK/VKycw2JJWTS+idIu6qAt5FzquVWaAopkvZiyXT8g0FqzzI5VAmk4d24L0SvNLocInhlRGe2e/yEq4ypD3LC2z+cedEWt6NgOuk9IUC3mB3pvIQ+o1LCd5o+hCTpPS5EtyyE2lVTy14+78A2D/iHMIAhmf0D3f9eS53sC4v+nwi5nbfzilH04dzvuvrVaAbpjbDxSVrD2UEuCSj3RiJYaVg9fKd7uOfAZcDr+rKJ0ml42/p3XaXSGa1ZeIkWqATUxPZrvJ2tpNZrYu9vapMwAb1rAtEoS1ynNf1bmLGBUJIyc9ySWeIBfaO1CBDPAnn0HSj+j29CJYF31VUVg9RrEjcyixWwfSbJjZCqxLqg8Rd6azS88OpfCpwfB62SO9Wuquk0L5S2Xyvfs9RDe/Ne5us5V9u+Rjga1d23prK/eeq703gC6ewWxdsVoSNdblTwETHteeAsItnqxK169SPHXe9q0GOd3JWcj+l1CZRNvHP7hzsIm1XTu0daoLQ1mlgbakzlag+2UPvwn1vome0ilszKj7TNU6Xf0Fmq+r6rIXvcYv7d+E309lme046/47brckRLxJMzs6Z4WY3KHtGhzvRzmahDbjY3ZmtUSqfRoezoim+eMq7YFvoLtFsZ2IItm9xIJ0927PhloyzlIUR7tLbOxqPq9X/MqrLk4Jm7vYIihHOhP1/xPCM02HPhg/0+9wS+jqdq481u+kpJFl7gHIYqIrSZI5MuWZ7PkrPmyvEhHklxxjFuhq37I9K5jZ3IINp3q7nRyrom+AcTG34S+qd3Ta1MpGdPfikivk0aNCgAbsM/gJvAihHGIEy4AAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                               
+                    <h4>Сотрудники</h4>
+                </a>
+                <a href="" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_54)"/>
+                        <defs>
+                        <pattern id="pattern0_107_54" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_54" transform="scale(0.02)"/>
+                        </pattern>
+                        <image id="image0_107_54" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABP0lEQVR4nO2ZQU7DMBBF3yorbkARvQb0fKVwgp6gXADWXTQXQSJhwSUGWZpIUZWAaztpjOdJf9HUGfvbTibWwHSsgVfgW3UA7smMFdAAcqZP4JaM2OvA33TgTu96zf03OxXwAnwNzK6P+rN/FxijBXY6lmCeAzt3Og3EqyPiPcUYaTXIwy9tuo5C+ev+x97KTNaJb5tr90FRRlpt47bApWz03ibBOKID7CIe4E7bJRip1Ey3MpeoURPVEozMgZgRxVYkMWJbq6StdRx4nbqPwuyMyIiyNTL2+wb4CEiSdS/GWOwsjJyuZST7rVV7zmYKxPKIYnkkMWIPu2J5BMsjg1geKer1Oydi55GSPhrFziPYeSQYO48kRiyPlJQQ50TMyH9bkTai0JmKjWfBdPJCZyptY4zEFDpTqfEsmBosiR8HFg/SQKU+VQAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                             
+                    <h4>История</h4>
+                </a>
+                <a href="" class="rowCont flex items-center">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_107_60)"/>
+                        <defs>
+                        <pattern id="pattern0_107_60" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_107_60" transform="scale(0.02)"/>
+                        </pattern>
+                        <image id="image0_107_60" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADXklEQVR4nO2ZzUsVURjGf3ZTq51do4zahWGLPghLbeF/EEJtsuhjZUHtCsFFqyxbFga6cBVIUBL0tQkRKiihTVa4CIo+LDNtl1ZWNw48A6fbjDNzZ+YYcX8wcJk5c868c955n+ecC2XKlCkTkxzQDHQBQ8Bz4DPwHZgD3uvcFeAUsAOo4B9iPdADvAMKMY9XwFmgbjEDqAX6gG/Wg70AeoF9wDZgJVAJLANWA1uAQ2rzxrrPzNhFIL/AeKPAw7SDaAdm9BDzwGWgKWYfJq1agKvAT/U1CewNaO8FnQrm7fZbnd4GNqTQ7yZgxOr3gr65TAJZoQc3nX0BjpAuZoaOAV81xi2lZKqBVFpBTCr/s6IFmNJY162ZSSWQfiuIerJnMzCtMU1hSCWQdiudspyJYpqsitiWNJBa682k/U1E4YTG/pQ0kD7dfIfsuR9RRGOzTlM7H6HEVgHnZUMmgHM650e1hO2Bq0B6dOPlGG3tw1gPP07r+hgOyFneKYpiT6hts8pnQeeKqZcd+QW04oBmyztFoXja/dLACN6wzg/giK6iGp5GIAd1birEHKbKkAY1LjYK3oObtNql3yY1PfKWWpuAnPFMg26N2H63z8febV0f0Llh14upGQ2cjyleHzQT3Vb5bdXHPefI3vyBZw2CtCAqRjPG1Zcpu0kZjbu4MuJ0L4WBPc0YV1BJqFZfxuY7xU8z4jiAYlZZvssZQZoRxwEUs92lIwjTjKgOwI8Dam/W+E4wOycfAzQjinCGOfFOHLGQZpQaSIX2wEzbRhwQphlhDiAIr+1rYAkOeBqiGWEOIIjBGG3/Isoix+iNzWPgUYhmBDmAIBqAH5rlta4CyYK7GstsqZZEoWjhfxz3dGhsUwVrkgbSZlmDnbijUelUWGA/OBJ2aezV72ltnmXNRmv9UnJK+QWS0/alN81GmbOciSmNdQNYmrTDYrEyG8o3rTQ7msEiqcNKJxPE8jQ69VPdnLb8vWsjKo9JabCqU0HplHgmotiHPdrQLuhPmmtS3zgzVKF7BqUTXtom+rBLWVzl9eZmraDfApeAw1rv1yklq9TeWPH9MoCed7L/eqthEVkjhX4ZUUTtw3inM6UqNhlXnJNKlzGtNWa1B2A2NJ5oPdGptk4MYJkyZfh/+A2mc3TLdxDMEgAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>                               
+                    <h4>Финансы</h4>
+                </a>
+            </div>
+        </div>
+        <div class="bottomContainer flex flex-col">
+            <a href="./accountHR.html" class="rowCont flex items-center">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="30" height="30" fill="url(#pattern0_107_64)"/>
+                    <defs>
+                    <pattern id="pattern0_107_64" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_107_64" transform="scale(0.015625)"/>
+                    </pattern>
+                    <image id="image0_107_64" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAELElEQVR4nO2aW4hVVRjHfzPljDpZ1ig92MUyBzPJLg9dqKkgRAaDQBslfLKgspIUgkaI6GIRg13sIWq0Jp2UYgh0cLqpqcNkF/LBDHooRx+6aNGoM16ymhMf/DcsDts5Z85eJ8/a7R8sOOfsvf7nW2vvvb5vfd+GjIyMjIyMjP+IS4AlQBewHxgEcsAJ4GfgE+AZ4BpSxiSgDTilARfTeoFbSQG3AQc1KJuA9cC9wGXAWJ1To0maBbwA9On8f4BngSoC5Q7nqm/WoIthFPAIcFx9XybQ5/03DeAVoLoEjZuddWIegbFWhm8scfARj0nnAHA2gXAF8DdwErg4odZZwHeahCYC4XEZ/JYnvSek104gfCqD53rSu0563xII+2TwZE96ddIzrxAEgzLYDPdBtfRsXQmCkzK41pPeKOn9SSAcksETPOmNl97vBMIPMvhyT3qTpfcjgbBdBt/pMaQ2va0EwioZvNST3oPSe4NAuF8GWzjsg3XSu49AmCKDDymUTeoCf5LeVAJij4xuTKhzu3RsPxAUT8rw9xLqdEqnhcCYABxT9GaPRCnMVFZoAKgnQFY5OYGRYmvHF+q/gkCpd6LCe0bY93n12+fkDoNkoQZyBLiqyD7m7oaUT0xFZrjNuZqXFjj3YT33dv4DpIQaYIeT22uIOedcYINTF1hGyjjH2SMcBu5yjs11kiiDqhukkrHA+xqoPeMdwE7nqn8DTCfljAG25JXBhpRITRo2VyxVwC3Am0C/M/BjzudfgOXABaSEemAB8A7wa94V3wUs0rpwI/CRc+y4FsM5SoUFxZWK2XsVAruDtizRS8CMYcpgncr75ZzF8gNgcSXvBKuB+Y6byzk1/49V2opze6djolzg7piSub1T8LoyTRVRJmtytr3WjgJrgLs9pcStrPYQsClv7YgSpCvP1CbpPLmwyJg+pa3GFdG3d5iXInqG6Wce4nrgaWBv3mPS4jEFX5AGJ2gZUN5vJH8evSwR1+xYsVwLdDt9PwRGU2ZmyF3ZH35V4sIUrfhPxSRPbBClZIwjm7oVdpfttu9zDC11izrb2R3OUsqrP2H5e7rjau1ljLLQoT/43MMst8fc/u8m1LxBrteiypvwzDQJD3iq+JrrbHUG35rwLZKIF6VnLtkrr0r4NY+aq50JsHyBD+rkik3zajzyvUQtbPW1ITqc58p8reBvS9PcpTdOSPR8T3rN0vtSLafffNBUjjpiTs0XXdJ7VC2n33xwkfSsmlSREzBRyc6/gAtjvielVrbaSxoVOQFLpGXxfdwdUYl3LD4Fv46pEzQ70WWqJ6DBiQLNE0SMdqJBizlSOwErhvH7UVzwXCVOwCkJ/lFkc3N9cS2uZN5YoE+h1lPOCdiW0Di3fXaa9/+rdKxUXUuvR/TkffdCjQKhYlrQxcyMjIwM/i/8C4ZjqQ0EUw7yAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>                                               
+                <h4>Профиль</h4>
+            </a> 
+            <a href="./createAccountHR.html" class="rowCont flex items-center">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="30" height="30" fill="url(#pattern0_107_67)"/>
+                    <defs>
+                    <pattern id="pattern0_107_67" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_107_67" transform="scale(0.02)"/>
+                    </pattern>
+                    <image id="image0_107_67" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE00lEQVR4nO2aWWhdVRSGP6xJixm01qoYW4fYwRSxILGtig8VfFD0QWlFELHUJ/tisaDUAaR1qm2ijU8OLxWHN4cHp6JWwfqirVAFFa1DakUQ1CQ114yy4D+wPDl373PPPTdytT9ccnPX2sPaZ++1/rX2geP4f+AxYBKYTn3GgS00EQYzjEg+B2gSdAJTwCgwx/3eod8rwIk0AVZr5Q9myL6XbDn/Is4BNgMLI3obNNkXM2SvS7Yu0sdC4E5gESVjCXBEk/gFuDag+7j07suQPSzZg4H2a4GfpPcj0E1JuMAZ8bv+2l7vA+amdFuA96RzQ0ZfN0v2Zur8GFqBHc7b/VGmMd6IfTqw9wBj+u0zoAc4H3gK+NV5J2ubxnIn/1lP7yxgKfCJc9Fb5TQ+LMOYs1NGtDlZL/C1ZKMa3L5PAO8Dtwb6vR34WE91Wl5sRN+/AVY53faUMV1FDEkO7Z/AqRlyG+Q56QwDjwJn1Og8BmSI9bFHTyGNBZqD6dxWxBB7Al+pg50BvYs1WFF0pZ5CGrs0hy9Tu6ImXKLzMClvMtu4UmOPR4zNhQe0IkeqbLFG4RTgh4ArrxlGJ/arwxeYPbykMT/KcNV1BcTkwK2k8bjCOZHSAiLy8xMKUvNz6K8A+oHP5VpH9L1fshgW62za4p1OiXhGK7QtotcqlzoRoPEm2y3dEJ6W/vayjJinJ2ErdFrEiL0uSD4BXCqX2Sav86SLG3sjxiyVnh34E4pM/GRgjSLwLhdZ3460G3AR+KJI3EkSL3syIRyQ3jviYRu0OFmB8x/pabXMbipCvVdoy4xGjPDGVNTGuFo13BHYorZgj2Q1SljnMRG4PSKI1+vwhdCvtvY3L3arjbHomMe8EbhXOc5BLdi05jwDiaVF9uMXamtkMi9Wqc2hAuPNcfOdgaqCHBhWWyOSedGuNkMFx5xuhCFDBQzpdAlUQwzpqGNrmUeptUhRZGt1hAwZdx7qW+AVBcB1OWhCctgtTuRF4q7NxYewDLgJeAh4DTjskjKb8wxskd+u1OF+K3KtMRhf+yuH+91UxfVWNNe7Ymy3x63Cu2r8Vk53OhgxZqVLoS365wmIb2h3rAcuLFrgm6fqyVgkE2xxFKUiw1bLAbSLLQzoSSQUxdo0jKLUQ+BaZUCINI7rSbTkHHMbJWKJJjdUA43vk0ca1ueQDnboTCRY1Cga3+NoQR4uVS8u01gj2mKlYK74jXX8LLOH5zXmpzlyl1zod8WzIsGyKNpdEdAofF24WjGklHJMAfTqrNgcrinaiZX2j2pF7o4MFsoc8xTo7ExUw1bN4WiOK41MbFYHv1XJyOa7ks2IErMza+j/XBW+EybxchWP2OluAezOpGYsdhnjB6ly5VplaEki5ovYVvC+JdDvxowidpIGDAJXOd02jZ1khIUvfrqdMfsU2Xe6bHK/dM5TIEyuFaZUpM6KR/5aYYeuFbpdEXBS8WaBxqz7WiHLmKRIN6YyZroC2OIGvy6jr/WumJBua//f7+5ekrEGyyzS2ep+p46N4l8e0O0LOIjtOWhHryrviRFZF0Z1oUv3EydF9Da6+440XpXMmHUIbSr9FLrYKQtrNFmrxKRxWDKj4k3zwsCxFP1uuhcGcIlTU7/Cge4Tq71UE0xPj4P/CP4GdM3Fkxh1C08AAAAASUVORK5CYII="/>
+                    </defs>
+                </svg>                                                                   
+                <h4>Настройки</h4>
+            </a> 
+        </div>
+    </aside>
+
+    <div class="contt flex ">
+        <div class="coll blueebg flex flex-col">
+            <h3>Кондидаты</h3>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <div class="btn flex">
+                    <button class="looking pluska">На расмотрении </button>
+                    <button class="no pluska">Отклонен </button>
+                    <button class="yes pluska">Принят </button>
+                </div>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <div class="btn flex">
+                    <button class="looking pluska">На расмотрении </button>
+                    <button class="no pluska">Отклонен </button>
+                    <button class="yes pluska">Принят </button>
+                </div>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <div class="btn flex">
+                    <button class="looking pluska">На расмотрении </button>
+                    <button class="no pluska">Отклонен </button>
+                    <button class="yes pluska">Принят </button>
+                </div>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <div class="btn flex">
+                    <button class="looking pluska">На расмотрении </button>
+                    <button class="no pluska">Отклонен </button>
+                    <button class="yes pluska">Принят </button>
+                </div>
+            </div>
+        </div>
+        <div class="str">.</div>
+        <div class="coll blueebg flex flex-col">
+            <h3>Наши сотрудники</h3>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+            <div class="person flex flex-col">
+                <h4 class="pluska">Дмитрий Иванович</h4>
+                <a href="./memberCreate.html"><button class="createBtn pluska">Редактировать</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

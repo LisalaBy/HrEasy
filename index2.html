@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация для HR</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body class="registrationPage flex items-center">
+    <div class="mainContent flex flex-col">
+        <a href="./main.html"><h3 class="logo">HrEase</h3></a>
+        <div class="title flex items-center flex-col">
+            <h3>Вход в аккаунт для HR-менеджеров</h3>
+            <h4>Введите свою почту и пароль для входа</h4>
+        </div>
+        <div class="inputContainer flex flex-col">
+            <div class="inpt flex flex-col">
+                <h4>Email</h4>
+                <input type="email" id="email" name="email" placeholder="HR_manager@gmail.com">
+            </div>
+            <div class="inpt flex flex-col">
+                <h4>Пароль</h4>
+                <input type="password" id="password" name="password" placeholder="*********">
+            </div>
+        </div>
+        <button class="Next" onclick="checkFields()"><a>Войти</a></button>
+    </div>
+
+    <div class="blue">
+        <svg width="929" height="1080" viewBox="0 0 929 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M947 0H1.87329e-05L84.0596 550.5L164.395 1080H947V0Z" fill="#3555DC" />
+          </svg>
+        <div class="blueContent flex flex-col">
+            <h3 class="logo"></h3>
+            <div class="content flex items-center flex-col">
+                <div class="title flex items-center flex-col">
+                    <h3>У вас нет учетной записи для регистрации?</h3>
+                    <h4>нажмите здесь, чтобы зарегистрироваться</h4>
+                </div>
+                <button><a href="./index.html">зарегистрироваться</a></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function checkFields() {  //если все инпуты не были заполнены появлялось сообщение. Если все заполнено перенаправление по ссылке на другую страницу (профиль)
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            if (email === "" || password === "") {
+                alert("Пожалуйста, заполните все поля.");
+            } else {
+                window.location.href = "./accountHR.html"; // Перенаправление на профиль
+            }
+        }
+    </script>
+</body>
+</html>
